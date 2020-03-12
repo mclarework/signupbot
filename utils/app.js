@@ -1,5 +1,5 @@
 const mysql = require("mysql");
-const faker = require("faker");
+// const faker = require("faker");
 const { promisify } = require("util");
 const connection = mysql.createConnection({
   host: "localhost",
